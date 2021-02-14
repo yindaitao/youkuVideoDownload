@@ -79,5 +79,18 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Dlls\avcodec-57.dll" />
+    <Content Include="Dlls\avdevice-57.dll" />
+    <Content Include="Dlls\avfilter-6.dll" />
+    <Content Include="Dlls\avformat-57.dll" />
+    <Content Include="Dlls\avutil-55.dll" />
+    <Content Include="Dlls\ffmpeg.exe" />
+    <Content Include="Dlls\ffplay.exe" />
+    <Content Include="Dlls\ffprobe.exe" />
+    <Content Include="Dlls\postproc-54.dll" />
+    <Content Include="Dlls\swresample-2.dll" />
+    <Content Include="Dlls\swscale-4.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
